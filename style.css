@@ -682,6 +682,17 @@ textarea{
 
 @media (max-width:768px){
 
+    .linkTela2{
+        font-size: 20px;
+    }
+
+   
+
+    .boxContent{
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.5% 99% 0.5%;
+
+    }
     
     .columnPrincipal{
         border: 10px solid white;
@@ -763,6 +774,16 @@ textarea{
 
 @media (max-width:425px){
 
+    .linkTela2{
+        font-size: 15px;
+        height: 6vh;
+    }
+
+    .linkTela2:hover{
+        width: 18vh;
+        height: 7vh;
+        font-size: 17px;
+    }
     
     .columnPrincipal{
         border: 5px solid white;
