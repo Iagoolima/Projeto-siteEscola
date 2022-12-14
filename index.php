@@ -25,7 +25,7 @@ if(isset($_POST['submit']))
 ?>
 <!-------------------cabeçalho----------------------------------------------------->
     <header>
-        
+        <div class="SubHeader">
         <a href="" 
             div class="boxHeader">
                 <img class="simboloHeaderHome" src="imagens/simboloHomee.png" alt="simboloHome"> 
@@ -41,8 +41,13 @@ if(isset($_POST['submit']))
             </p>
             
         </div>
+
+        </div>
+        <div class="boxProf" onclick="prof()"> </div>
+        
         
     </header>
+        
 
     <div class="boxLowHeader"></div>
     <!-------------------Conteudo--------------------------------------------------->

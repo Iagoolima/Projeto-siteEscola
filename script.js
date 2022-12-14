@@ -1,4 +1,11 @@
-
+function prof(){
+    let senha = prompt('*Acesso restrito para professores*\n Digite a senha de acesso:')
+    if(senha == 'admin'){
+        location.href='listaAlunos.php'
+    }else{
+        alert('Senha incorreta !\n\nTente novamente')
+    }
+}
 
 function pegarFolha(){
     let folha = document.getElementById("folha")

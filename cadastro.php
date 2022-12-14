@@ -13,7 +13,7 @@ $folha = ($_POST ['folha']);
 
 
 
-$result_alunos = "INSERT INTO Alunos (Nome, Idade, Sala, texto_Redacao, Data) VALUES ('$nome','$idade','$sala','$folha', NOW())";
+$result_alunos = "INSERT INTO alunos (Nome, Idade, Sala, texto_Redação, Data) VALUES ('$nome','$idade','$sala','$folha', NOW())";
 
 $resultado_alunos = mysqli_query($mysqli, $result_alunos);
 

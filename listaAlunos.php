@@ -38,7 +38,7 @@ echo "<br>-ID: ". $row_aluno['id']."<br>";
 echo "<br>-Nome: ". $row_aluno['Nome']."<br>";
 echo "<br>-Idade: ". $row_aluno['Idade']."<br>";
 echo "<br>-Sala: ". $row_aluno['Sala']."<br>";
-echo "<br>-Texto: ". $row_aluno['texto_Redacao']."<br>";
+echo "<br>-Texto: ". $row_aluno['texto_Redação']."<br>";
 echo "<br>-Data: ". $row_aluno['Data']."<br><br><hr>";
 }
 
