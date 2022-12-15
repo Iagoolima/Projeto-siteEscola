@@ -1,6 +1,6 @@
 <?php
 
-$usuario ='root';
+$usuario ='iago';
 $senha = '';
 $database = 'atividades';
 $host = 'localhost';
