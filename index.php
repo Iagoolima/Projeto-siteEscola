@@ -43,7 +43,7 @@ if(isset($_POST['submit']))
         </div>
 
         </div>
-        <div class="boxProf" onclick="prof()"> </div>
+        <div class="boxProf" onclick="prof()"></div>
         
         
     </header>
